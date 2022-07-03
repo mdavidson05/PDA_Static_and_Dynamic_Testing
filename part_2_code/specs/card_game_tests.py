@@ -118,7 +118,7 @@ class TestCardGame(unittest.TestCase):
 
     
     def test_card_has_suit(self):
-        self.assertEqual("spades", ace_of_spades.suit)
+        self.assertEqual("spades", self.ace_of_spades.suit)
 
 
     def test_check_for_ace(self):
